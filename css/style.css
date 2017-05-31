@@ -1,5 +1,5 @@
 .container {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .row {
@@ -9,10 +9,20 @@
 }
 .clicker {
   background-color: #99cccc;
-  float: left;
   text-align: center;
   padding: 15px;
 }
-.kitty {
-  height: 100%;
+.cat-image img {
+  height: auto;
+  max-width: 100%;
+}
+
+.names {
+  float: left;
+  width: 30%;
+}
+
+.cat-display {
+  float: right;
+  width: 65%;
 }

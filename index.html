@@ -8,10 +8,25 @@
 <body>
   <div class="container">
     <h1>Click these cats!</h1>
-    <div class="cats">
-    <!-- will be filled by JS catclicker -->
+    <div class="names">
+      <ul id="namesList">
+          <!-- list will be filled by JS catclikcer -->
+      </ul>
+    </div>
+    <div class="cat-display">
+      <div class="cat-name">
+        <h3> Name: <span id="name">Kitty</span> </h3>
+      <div class="cat-image" id="image">
+        <p>choose a cat</p>
+      </div>
+      <div class="clicker">
+        <p>You have clicked this cat</p>
+        <h1 id="clicks">0</h1>
+        <p>times</p>
+      </div>
     </div>
   </div>
+</div>
   <script src="js/libs/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </body>
